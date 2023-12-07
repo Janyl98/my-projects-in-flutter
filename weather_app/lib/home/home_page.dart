@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       final weather = Weather.fromJson(data);
       return weather;
     } catch (e) {
-      throw Exception('Bit kata boldu, kata: $e');
+      throw Exception('Bir kata boldu, kata: $e');
     }
   }
 
